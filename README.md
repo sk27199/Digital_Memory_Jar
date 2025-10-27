@@ -1,10 +1,10 @@
-Digital Memory Jar
+**Digital Memory Jar**
 
 Hi! 👋 I’ve been learning Python for a few weeks and wanted to build something that’s a bit different — not just another calculator or guessing game.
 
 So I made the Digital Memory Jar — a small Python project that lets you record how your day went, save it, and look back at your memories later. It’s like a personal diary that turns your thoughts into data.
 
-🌟 What It Does
+**🌟 What It Does**
 
 Every time you run the program, it asks you:
 
@@ -24,7 +24,7 @@ Example output:
 > 2
 2025-10-27 | Mood: 8 | 😊 Finished my project | ⚡ Focusing
 
-💾 Features
+**💾 Features**
 
 🧠 Add daily memories
 
@@ -36,7 +36,7 @@ Example output:
 
 📂 Keeps your data safe so you can look back anytime
 
-🧰 Tools & Skills Used
+**🧰 Tools & Skills Used**
 
 Python 3
 
@@ -58,8 +58,8 @@ User input
 
 This project helped me understand how small parts of Python come together to make something that actually works.
 
-🚀 How to Run
-💻 Run on Your Computer
+**🚀 How to Run**
+**💻 Run on Your Computer**
 
 Copy the code into a file called main.py
 
@@ -72,12 +72,12 @@ python main.py
 
 Choose an option from the menu (Add / View / Quit)
 
-🌐 Run Online
+**🌐 Run Online**
 
 If you don’t have Python installed, you can run it directly on Replit
 .
 
-🧩 Example of the Code
+**🧩 Example of the Code**
 def add_memory():
     date = datetime.now().strftime("%Y-%m-%d")
     mood = input("Mood (1-10): ")
@@ -92,7 +92,7 @@ def add_memory():
 
 This is the part that asks you questions and saves your answers in a file — like writing in your own diary.
 
-💡 Future Plans
+**💡 Future Plans**
 
 I want to add a few more features later, such as:
 
@@ -104,25 +104,25 @@ I want to add a few more features later, such as:
 
 🌤 Integration with a weather API to show what the weather was like each day
 
-❤️ Why I Made This
+**❤️ Why I Made This**
 
 I made this project to practice Python in a way that felt personal and creative.
 It’s a simple idea, but it shows how programming can turn something meaningful — like your emotions and memories — into data you can interact with.
 
 For me, this project represents the start of my learning journey in Python and my interest in building small, personal tools that make everyday life a bit more interesting.
 
-📂 Folder Layout
+**📂 Folder Layout**
 digital_memory_jar/
 │
 ├── main.py
 ├── memories.csv   # created automatically after first run
 └── README.md
 
-📜 License
+**📜 License**
 
 This project is open-source — feel free to use, edit, and learn from it!
 
-✨ Final Notes
+**✨ Final Notes**
 
 This is one of my first Python projects, and I’m proud of how it turned out.
 It helped me understand that programming isn’t just about math or numbers — it’s about building things that connect with people, even in small ways.
